@@ -39,6 +39,8 @@ jobs:
 
       - name: Build
         working-directory: vitepress
+        env:
+          BASE_PATH: /kotlin-for-edu-sinicization/
         run: pnpm docs:build
 
       - name: Add .nojekyll

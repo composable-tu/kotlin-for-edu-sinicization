@@ -2,9 +2,14 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { groupIconMdPlugin, groupIconVitePlugin } from "vitepress-plugin-group-icons";
 
+// GitHub Pages 项目站点部署在子路径下，需用环境变量注入 base。
+// 本地 `pnpm docs:dev` 保持 "/"，CI 中通过 BASE_PATH 覆盖为 "/kotlin-for-edu-sinicization/"。
+const base = process.env.BASE_PATH ?? "/";
+
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
+    base,
     title: "Kotlin for Edu - Sinicization",
     description: "对 Kotlin for Education 教育工具包材料的中文化 —— 当然，不包括评估材料",
     themeConfig: {

@@ -1,4 +1,4 @@
-# Kotlin for Edu - Sinicization
+# Kotlin for Education - Sinicization
 
 Kotlin 是一门现代、简洁且安全的编程语言，已被 Google、亚马逊、Twitter、Reddit、Netflix、Uber、Slack 等顶尖企业广泛采用。在全球，有超过 400 所大学教授 Kotlin。
 
@@ -15,6 +15,10 @@ Kotlin 是一门现代、简洁且安全的编程语言，已被 Google、亚马
 > 这是一个正在进行的项目，仓库内文件可能不完善且随时可发生变动，请留意。
 >
 > 由于 Microsoft PowerPoint 不兼容 Google 幻灯片的演讲者备注超链接能力，因此该仓库未翻译/注明演讲者备注的超链接部分。
+
+## 在线讲义
+
+https://composable-tu.github.io/kotlin-for-edu-sinicization/
 
 ## Agent Skills
 
