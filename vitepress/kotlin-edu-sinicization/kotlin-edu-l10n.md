@@ -8,6 +8,10 @@ Kotlin 是一门现代、简洁且安全的编程语言，已被 Google、亚马
 
 > \*指使用百度、Bing、Google、微信搜一搜、DeepSeek、字节豆包、腾讯元宝、Kimi、阿里 Qwen、Grok、Gemini 搜索引擎或 AI 工具，搜索不到在本项目之前就存在的 Kotlin for Education 教学资源包中文版本。
 
+::: warning
+在深色模式下，部分页面的图片与深色颜色对比度过低，导致您的阅读体验可能不佳。推荐手动将网站调整为浅色模式。
+:::
+
 ## 导航
 
 - [为什么要教 Kotlin？](/kotlin-edu-sinicization/why-teach-kotlin)
