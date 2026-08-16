@@ -21,8 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - run: cd vitepress
-
       - uses: pnpm/setup@v2
         with:
           version: 11
@@ -34,20 +32,24 @@ jobs:
         with:
           node-version: 26
           cache: pnpm
+          cache-dependency-path: vitepress/pnpm-lock.yaml
 
       - name: Install dependencies
+        working-directory: vitepress
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build
+        working-directory: vitepress
+        run: pnpm docs:build
 
       - name: Add .nojekyll
+        working-directory: vitepress
         run: touch .vitepress/dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: .vitepress/dist
+          path: vitepress/.vitepress/dist
 
   deploy:
     needs: build
