@@ -1,69 +1,8 @@
-# Kotlin for Edu - Sinicization
-
-> [!note]
-> 本仓库所有文本文档及演示文稿源自 JetBrains 免费无门槛提供的 [Kotlin for Education](https://kotlinlang.org/education/) 教育资源，相关作品知识产权归属于 JetBrains 公司和/或其关联公司。本仓库仅基于上述作品进行二次创作演绎（翻译）。若本仓库侵犯了 JetBrains 公司的知识产权，请及时与我联系。
-
-> [!warning]
-> 这是一个正在进行的项目，仓库内文件可能不完善且随时可发生变动，请留意。
->
-> 由于 Microsoft PowerPoint 不兼容 Google 幻灯片的演讲者备注超链接能力，因此该仓库未翻译/注明演讲者备注的超链接部分。
-
-## Agent Skills
-
-项目同时基于 Kotlin for Education 教育资源包进行了知识与方法论蒸馏，形成一套跨编程语言的教学课件编写助手 Skill。
-
-### 核心方法
-
-学生先「想要」，再「知道」——术语是解药的名字，解药登场之前，病必须先被看见。由此推导出七个心智模型：
-
-* **张力先于术语**：概念名词永远最后出场，前面是完整的痛点演进弧
-* **一例贯穿**：一门课只用一个主例子，复杂度全部加在机制层
-* **双层分工**：幻灯片是学生带走的锚点，讲师备注是课堂剧本，任何信息只出现在一层
-* **重复即设计**：讲过程必用序列，同一面板跨多页、每页只变一处
-* **差异教学**：新概念的第一句话永远是「它像你已会的 X，区别只有一点」
-* **诚实的近似**：每次简化声明边界，每次延期锚定到「第 X 讲」
-* **结构契约**：先声明可裁剪的课程骨架，评估结构与教学块同构
-
-这些直觉多数有教育学理论对应（Productive Failure、认知负荷理论等）。
-
-此外，大部分教师的隐顾虑是「AI 写的课件没有我的风格、质量失控」。该 Skill 将产出两层——给学生看的页面，和给教师演示的讲师备注。AI 管结构，教师管风格。
-
-### 安装
-
-在项目文件夹中打开终端，运行以下命令即可安装：
-
-```shell
-npx skills add composable-tu/kotlin-for-edu-sinicization
-```
-
-之后直接提出教学请求即可自动激活，例如：
-
-- 帮我写一节《数据库索引》的课件，45 分钟课
-- 学生总说听不懂递归，帮我设计讲法
-- 这是我们学院的《数据结构》大纲，帮我改进
-- 帮我出一份这一讲的测验，附讲评
-
-课件类产出固定包含页面与讲师备注两层。
-
-## TODO
-
-- [x] Kotlin 入门
-- [x] 面向对象编程
-- [x] 泛型
-- [x] 集合
-- [x] 函数式编程
-- [ ] 并行与并发编程
-- [ ] 异步编程
-- [x] 异常（选修主题）
-- [x] 测试（选修主题）
-- [x] 构建系统（进阶主题）
-- [x] Java 虚拟机与 Kotlin 编译器（进阶主题）
-- [ ] 反射（JVM）（进阶主题）
-- [x] Kotlin 后端开发基础
-
----
-
 # 《Kotlin 编程》课程大纲
+
+::: info
+本文翻译自：https://kotlinlang.org/education/
+:::
 
 ## 先修要求
 
@@ -157,5 +96,3 @@ Kotlin Notebook 如何助您教授编程：https://blog.jetbrains.com/kotlin/202
 
 - Roman Elizarov、Svetlana Isakova、Sebastian Aigner 和 Dmitry Jemerov：《Kotlin in Action》（第二版），Manning Publications，2022 年：https://www.manning.com/books/kotlin-in-action-second-edition
 - Kotlin 官方文档：https://kotlinlang.org/docs/home.html
-
-
