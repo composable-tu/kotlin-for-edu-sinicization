@@ -29,7 +29,7 @@ JetBrains 官方博客（2023-07-05，作者 Ksenia Shneyveys）披露了资源�
 
 > "These resources were developed by **a team of educators, with the help of designers, copyeditors, and managing coordinators, who spent almost a year creating this course. It is currently being taught at two universities**."
 
-即：不是个人讲师的课件，而是「教育者 + 视觉设计师 + 文字编辑 + 项目协调」的工业化团队产物，开发周期近一年，且发布前已在两所大学实际授课验证（本地语料已知这两所为德国康斯坦茨大学与塞浦路斯尼科西亚大学；**官方页面摘要未直接点名校名**，此点以本地语料为准【官方博客确认「两所大学」事实，校名为本地语料信息】）。
+即：不是个人讲师的课件，而是「教育者 + 视觉设计师 + 文字编辑 + 项目协调」的工业化团队产物，开发周期近一年，且发布前已在两所大学实际授课验证（德国康斯特大学（Constructor University）、塞浦路斯那波勒斯大学（Neapolis University））。
 
 来源：https://blog.jetbrains.com/kotlin/2023/07/teach-kotlin-with-our-new-course/ 【官方】
 
@@ -217,4 +217,4 @@ Frontiers in Psychology (2022) 的一篇实证研究专门检验了这两种顺�
   1. 「单一贯穿例子」的命名效应（2.5 节）；
   2. 「幻灯片+讲师备注双层」的命名理论（2.6 节，仅官方规范旁证）；
   3. MIT SICP / Berkeley CS61 课件设计哲学的直接证据（3.3 节）；
-  4. Kotlin 官方页面直接点名康斯坦茨大学/尼科西亚大学（1.2 节，校名以本地语料为准）。
+  4. Kotlin 官方页面涉及的两所大学即德国康斯特大学、塞浦路斯那波勒斯大学（见 1.2 节）。
